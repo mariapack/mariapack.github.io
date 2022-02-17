@@ -1,0 +1,85 @@
+/*HEADER*/
+/*меняет цвет фона шапки*/
+.navbar {
+    background-color: blueviolet !important;
+}
+/*меняет цвет букв бренда на белый*/
+#brand {
+  color:white;
+  text-decoration: none;
+}
+
+#navbar-header .navbar-brand {
+    width: 50%;
+}
+/*меняет положение кноки*/
+#button {
+    position: absolute;
+    top: 0.7rem;
+    right: 0.7rem;
+}
+/*изменяет стиль выезжающего меню*/
+#navbarSupportedContent {
+    font-size: 1.3em;
+    background-color: rgb(160, 89, 226);
+}
+/*цвет пунктов выез. меню при наведении курсора*/
+#navbarSupportedContent a:hover {
+    background-color:rgb(127, 0, 211) !important;
+}
+/*цвет букв в. меню*/
+.nav-link {
+    color:white !important;
+}
+/*белые линии между пунктами меню*/
+#beef {
+    border-top: 0.1rem solid white;
+    border-bottom: 0.1rem solid white;
+}
+/*отключает отображение в. меню на больших экранах*/
+@media (min-width: 576px) {
+    #navbarSupportedContent {
+        display: none;
+    }
+}
+/*корректирует расположение элементов шапки на небольших экранах*/
+@media (max-width: 575px) {
+    #head-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+    #navbar-header .navbar-brand {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #header-nav {
+        padding-bottom: 0px;
+    }
+}
+/*END HEADER*/
+
+
+/*MAIN CONTENT*/
+
+#menu {
+    margin-top: 0.5rem;
+    margin-bottom: 00.5rem;
+}
+
+#menuPoint {
+    border: 00.1rem solid black;
+    background-color: rgb(245, 234, 255);
+    color: black;
+}
+
+#chicken {
+    padding-top: 00.7rem;
+}
+
+#menuContent {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
